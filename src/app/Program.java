@@ -31,9 +31,6 @@ public class Program {
 
         ComplexNumber secondcomplexNumber = new ComplexNumber(secondReal,secondImg);
 
-//        System.out.println("Choose Operation \n1- Addition \n2- Subtraction \n3- Multiplication \n4- Division \n5- Conjugate \n6- Quit");
-        //choose an option
-
         //flag for taking input until user Quits
         boolean flag= false;
         while (!flag) {
