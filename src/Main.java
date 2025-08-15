@@ -1,6 +1,8 @@
+import app.Program;
+
 public class Main {
     public static void main(String[] args) {
-        //(1+3i)
-
+        Program program= new Program();
+        program.run();
     }
 }

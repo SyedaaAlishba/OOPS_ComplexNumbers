@@ -16,6 +16,10 @@ public class ComplexNumber {
     public ComplexNumber(double v) {
         this.realNumber=v;
     }
+    public ComplexNumber(double real, double img) {
+        this.realNumber=real;
+        this.imaginaryNumber=img;
+    }
 
     public double getImaginaryNumber() {
         return imaginaryNumber;
